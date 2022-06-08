@@ -2,6 +2,23 @@ const WhmcsHttpClient = require('./lib/whmcshttpclient');
 const modules = require('./modules/index');
 
 class WHMCS {
+  /** @type {import('./modules/orders')}*/ orders;
+  /** @type {import('./modules/billing')}*/ billing;
+  /** @type {import('./modules/module')}*/ module;
+  /** @type {import('./modules/support')}*/ support;
+  /** @type {import('./modules/system')}*/ system;
+  /** @type {import('./modules/client')}*/ client;
+  /** @type {import('./modules/products')}*/ products;
+  /** @type {import('./modules/projectManagement')}*/ projectManagement;
+  /** @type {import('./modules/users')}*/ users;
+  /** @type {import('./modules/affiliates')}*/ affiliates;
+  /** @type {import('./modules/authentication')}*/ authentication;
+  /** @type {import('./modules/domains')}*/ domains;
+  /** @type {import('./modules/servers')}*/ servers;
+  /** @type {import('./modules/tickets')}*/ tickets;
+  /** @type {import('./modules/service')}*/ service;
+  /** @type {import('./modules/addons')}*/ addons;
+
   /**
    * Creates a WHMCS object
    * @param {Object} options Configuration parameters (key-value pairs)

@@ -2,8 +2,9 @@
   "name": "whmcs",
   "description": "WHMCS API client.",
   "version": "1.2.2",
-  "author": "Pedro Dias <petermdias@gmail.com>",
+  "author": "Victor Bäck <vb@naz.group>",
   "maintainers": [
+    "Victor Bäck <vb@naz.group>",
     "apocas <petermdias@gmail.com>"
   ],
   "repository": {

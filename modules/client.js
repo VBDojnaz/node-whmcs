@@ -110,6 +110,11 @@ class Client {
    * Obtain the Clients Details for a specific client.
    * https://developers.whmcs.com/api-reference/getclientsdetails/
    * @param {Object} parameters Request parameters
+   * 
+   * @param {Number} [parameters.clientid] The client id to obtain the details for. $clientid or $email is required
+   * @param {String} [parameters.email] The email address of the client to search for
+   * @param {Boolean} [parameters.stats] Also return additional client statistics.
+   * 
    * @param {Function} callback Optional callback. If not set the method returns a Promise
    */
   getClientsDetails(parameters, callback) {

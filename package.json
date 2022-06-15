@@ -1,7 +1,7 @@
 {
   "name": "@dojnaz/whmcs",
   "description": "WHMCS API client.",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Victor Bäck <vb@naz.group>",
   "maintainers": [
     "Victor Bäck <vb@naz.group>",
